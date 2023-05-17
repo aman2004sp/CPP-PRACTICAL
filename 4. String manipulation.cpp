@@ -162,7 +162,7 @@ int main()
 
     cout << "Length of the string: " << len << endl;
 
-    cout << "5. Convert all lowercase characters to uppercase\n";
+    cout << "5. Convert all uppercase to lowercase:\n";
 
     convertToLowercase(str);
 
