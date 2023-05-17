@@ -1,1 +1,1 @@
-# CPP-PRACTICAL-
+#This repository contains all cpp practicals
