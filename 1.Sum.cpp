@@ -1,43 +1,28 @@
 #include <iostream>
-
 #include <cmath>
-
-
 
 using namespace std;
 
-
-
-int main() {
-
-    int n;
-
-    double sum = 0.0;
-
-    cout << "Enter the value of n: ";
-
-    cin >> n;
-
-    
-
-    for (int i = 1; i <= n; i++) {
-
-        if (i % 2 == 0) {
-
-            sum -= 1.0 / pow(i, 2);
-
-        } else {
-
-            sum += 1.0 / pow(i, 2);
-
-        }
-
-    }
-
-    
-
-    cout << "The sum of the first " << n << " terms of the series is: " << sum << endl;
+int main()
+{
+   
+   double sum=0.0;
+   int number;
+   //enter number of terms you want in expression:"1-1/2^2+1/3^3...n"
+   cout<<"enter number for getting sum";
+   cin>>number;
+   cout<<endl;
+   for(int i=1;i<=number;i++){
+       if (i%2==0){
+        sum -= 1/pow(i,i);
+        
+       }
+       else{sum+=1/pow(i,i);
+        
+       }
+   }
+   cout<<sum;
+   
 
     return 0;
-
 }
