@@ -1,24 +1,21 @@
+/*this program is for deleting duplicate elements in array*/
+
 #include <iostream>
-
 #include <set>
-
-
-
 using namespace std;
 
-
-
-int main() {
-
-    int arr[100];
-
-    int n;
+int main()
+{
+      int n;
 
 
 
     cout << "Enter the size of array: ";
 
     cin >> n;
+      int arr[n];
+
+    
 
 
 
@@ -65,5 +62,4 @@ int main() {
 
 
     return 0;
-
 }
